@@ -1,0 +1,128 @@
+:root {
+  --logo-azul: #01427c;
+  --logo-naranja: #f29b18;
+  --blanco: rgb(255, 255, 255);
+  --negro: rgb(18, 18, 18);
+  --gris: rgb(219, 219, 219);
+}
+
+header {
+  margin-top: 32px;
+  width: 100%;
+  border-bottom: 1px solid var(--gris);
+  padding-bottom: 18px;
+}
+
+header .header--container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .header--container .logo--container {
+  display: flex;
+}
+
+header .header--container .logo--container img {
+  width: 200px;
+  height: 55px;
+  margin: auto;
+  cursor: pointer;
+}
+
+header .nav--container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 0px;
+  margin-left: 12px;
+}
+
+.nav--container ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  header .nav--container {
+    display: none;
+  }
+}
+
+.nav--container a {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: var(--negro);
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.nav--container a:hover {
+  text-decoration: underline;
+}
+
+header .carrito img {
+  width: 30px;
+  height: 30px;
+}
+
+header .nav--container div {
+  display: flex;
+}
+
+
+header .carrito {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+
+header .carrito--container {
+  display: flex;
+  align-items: center;
+  margin: auto 0px;
+}
+
+header .carrito--container .boton-carrito {
+  font-size: 1.4rem;
+}
+
+header .header--container .boton-carrito {
+  display: inline-block;
+  padding: 10px 15px;
+
+}
+
+header .carrito div {
+  text-align: center;
+  position: absolute;
+  color: white;
+  background-color: var(--logo-naranja);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+header .carrito div span {
+  font-size: 1.3rem;
+}
+
+header .header--container .boton-carrito:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+
+#añadirboton {
+  width: 250px;
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 0 100px;
+  background-color: var(--logo-naranja);
+  color: var(--blanco);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

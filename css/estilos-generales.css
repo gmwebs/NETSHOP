@@ -1,0 +1,33 @@
+:root {
+    --logo-azul: #01427c;
+    --logo-naranja: #f29b18;
+    --blanco: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Assistant', sans-serif;
+    font-size: 65.2%;
+}
+
+main {
+    background: var(--blanco);
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 30px;
+}

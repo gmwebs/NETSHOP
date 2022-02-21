@@ -1,0 +1,50 @@
+:root {
+  --logo-azul: #01427c;
+  --logo-naranja: #f29b18;
+  --blanco: rgb(255, 255, 255);
+}
+
+main .seccion-1 {
+  width: 100%;
+  display: flex;
+}
+
+main .seccion-1 .seccion-1--container {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+main .seccion-1 .seccion-1--container img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+main .seccion-1 .seccion-1--container .fondo-seccion-1 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+main .seccion-1 .seccion-1--container div {
+  position: absolute;
+}
+
+main .seccion-1 .seccion-1--container div h2 {
+  text-align: center;
+  color: var(--blanco);
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+main .seccion-1 .seccion-1--container div p {
+  text-align: center;
+  line-height: 3rem;
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--blanco);
+} 
+

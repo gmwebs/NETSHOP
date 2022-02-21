@@ -116,10 +116,9 @@ header .header--container .boton-carrito:hover {
 
 
 #añadirboton {
-  width: 200px;
+  width: 100px;
   display: inline-block;
   padding: 20px 40px;
-  margin: 0 20px;
   background-color: var(--logo-naranja);
   color: var(--blanco);
   border: none;

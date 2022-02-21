@@ -22,7 +22,7 @@ function añadirCarrito() {
   else if (enCarrito == true) {
     carritoPedido = carritoPedido - 1;
     pedidos.innerHTML = carritoPedido;
-    añadirCarritoBoton.innerHTML = "Añadir del carrito";
+    añadirCarritoBoton.innerHTML = "Añadir al carrito";
     añadirCarritoBoton.style.backgroundColor = "var(--logo-naranja)";
 
     enCarrito = false;
